@@ -1,7 +1,10 @@
 {
   "name": "stockwatcher",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "karma":"^0.13.0",
+    "jasmine-core":""
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
