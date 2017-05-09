@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name stockWatcherApp
+ * @name stockDogApp
  * @description
- * # stockWatcherApp
+ * # stockDogApp
  *
  * Main module of the application.
  */
 angular
-  .module('stockWatcherApp', [
+  .module('stockDogApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -19,14 +19,6 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
